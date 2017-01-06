@@ -4,35 +4,18 @@ permalink: /AWS_setup
 title: AWS Setup
 header1: Workshop Pages for Students
 header2: AWS Setup
-image: /site_images/CBW-CSHL-graphic-square.png
+image: /site_images/Bioinfo_Logo.jpg
 home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 ---
 
-
-<ul id="navmenu">
-  <li><a id="back_to_top">Contents</a>
-     <ul class="sub1">
-     <li><a href="#amazon_cloud">Amazon Cloud</a>
-         <ul class="sub2">  
-           <li><a href="#ssh_login">Mac/Linux ssh Login</a></li>
-           <li><a href="#putty_login">Windows Putty Login</a></li>
-           <li><a href="#file_system_layout">File System Layout</a></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>  
-
-<br>
-
-### Logging into the Amazon Cloud <a id="amazon_cloud"></a>
+### Logging into the Amazon Cloud  
 
 * These instructions will **ONLY** be relevant in class, as the Cloud will not be accessible from home in advance of the class.
  
 * On the cloud, we're going to use the default username: **ubuntu**
  
 
-#### Logging in with ssh (Mac/Linux) <a id="ssh_login"></a>
+#### Logging in with ssh (Mac/Linux) <a id="maclinux"></a>
 <p>
 <h5> Logging in </h5>
 </p>
@@ -50,7 +33,6 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 
 (where ## is your assigned student number. Your student number is the number on your name badge. If your number is less than 10, please add 0 in front of it.)
 
-[&uarr;](#back_to_top)
 
 ##### Copying files to your computer
 * To copy files from an instance, use scp in a similar fashion:
@@ -64,7 +46,7 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
  http://cbw##.dyndns.info/ http://cbw#.dyndns.info/
 
 
-#### Logging in with Putty (Windows) <a id="putty_login"></a>
+#### Logging in with Putty (Windows) <a id="windows"></a>
 <p>
 <h5> Logging in </h5>   
 </p>
@@ -108,7 +90,7 @@ To configure WinScp, start WinScp and do the following:
 **Now that WinScp is configured**, all you have to do is start WinScp and double-click on **Amazon node** to start copying files.
 
 
-#### File System Layout <a id="file_system_layout"></a>
+#### File System Layout <a id="filesystem"></a>
 <br>
 When you log in, you'll notice that you have two directories: **CourseData** and **workspace**.
 
