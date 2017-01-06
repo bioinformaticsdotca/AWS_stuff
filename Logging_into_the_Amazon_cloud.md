@@ -31,7 +31,6 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
  
 * On the cloud, we're going to use the default username: **ubuntu**
  
-[&uarr;](#back_to_top)
 
 #### Logging in with ssh (Mac/Linux) <a id="ssh_login"></a>
 <p>
@@ -64,7 +63,6 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 
  http://cbw##.dyndns.info/ http://cbw#.dyndns.info/
 
-[&uarr;](#back_to_top)
 
 #### Logging in with Putty (Windows) <a id="putty_login"></a>
 <p>
@@ -88,7 +86,6 @@ To configure Putty, start Putty and do the following:
 
 **Now that Putty is configured**, all you have to do is start putty and double-click on "Amazon node" to login.
 
-[&uarr;](#back_to_top)
 
 ##### Copying files to your computer
 <br>
@@ -110,7 +107,6 @@ To configure WinScp, start WinScp and do the following:
 
 **Now that WinScp is configured**, all you have to do is start WinScp and double-click on **Amazon node** to start copying files.
 
-[&uarr;](#back_to_top)
 
 #### File System Layout <a id="file_system_layout"></a>
 <br>
