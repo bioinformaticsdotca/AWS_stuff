@@ -43,8 +43,9 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 
 * Everything created in your workspace on the cloud is also available by a web server on your cloud instance.  Simply go to the following in your browser:
 
- http://cbw##.dyndns.info/ http://cbw#.dyndns.info/
-
+```
+ http://cbw##.dyndns.info/
+```
 
 #### Logging in with Putty (Windows) <a id="windows"></a>
 <p>
