@@ -22,13 +22,13 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 * Make sure the permissions on your certificate are secure. Use chmod on your downloaded certificate:
 
 ```bash
- chmod 600 CBWCG.pem
+ chmod 600 CBWNY.pem
 ```
 
 * To log in to the node, use the -i command line argument to specify your certificate:
 
 ```bash
- ssh -i CBWCG.pem ubuntu@cbw##.dyndns.info
+ ssh -i CBWNY.pem ubuntu@cbw##.dyndns.info
 ```
 
 (where ## is your assigned student number. Your student number is the number on your name badge. If your number is less than 10, please add 0 in front of it.)
@@ -38,7 +38,7 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 * To copy files from an instance, use scp in a similar fashion:
 
 ```bash
- scp -i CBWCG.pem ubuntu@cbw##.dyndns.info:<file name> .
+ scp -i CBWNY.pem ubuntu@cbw##.dyndns.info:<file name> .
 ```
 
 * Everything created in your workspace on the cloud is also available by a web server on your cloud instance.  Simply go to the following in your browser:
@@ -61,7 +61,7 @@ To configure Putty, start Putty and do the following:
 
 <img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/Putty_Data_Options.png?raw=true" alt="Putty Data Options" class="center"> 
 
-* In the left hand categories, in the Connection category next to SSH click on the **+**. Click on Auth. In the private-key file for authentication field, hit browse and find the CBWCG.ppk certificate that you downloaded above.
+* In the left hand categories, in the Connection category next to SSH click on the **+**. Click on Auth. In the private-key file for authentication field, hit browse and find the CBWNY.ppk certificate that you downloaded above.
 
 <img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/Putty_Auth_Options.png?raw=true" alt="Putty Auth Options" class="center">
 
@@ -82,7 +82,7 @@ To configure WinScp, start WinScp and do the following:
 
 * Leave the password field empty
 
-* In the "private key file" field press the "..." button to browse for the CBWCG.ppk certificate.
+* In the "private key file" field press the "..." button to browse for the CBWNY.ppk certificate
 
 * Click the "Save..." button and in the "Save session as" field write "Amazon node". 
 
