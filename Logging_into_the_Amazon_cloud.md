@@ -8,7 +8,7 @@ image: /site_images/Bioinfo_Logo.jpg
 home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 ---
 
-### Logging into the Amazon Cloud  
+### Logging into the Amazon Cloud During the Workshop  
 
 * These instructions will **ONLY** be relevant in class, as the Cloud will not be accessible from home in advance of the class.
  
@@ -98,5 +98,10 @@ When you log in, you'll notice that you have two directories: **CourseData** and
 * The **CourseData** directory will contain the files that you'll need to complete your lab assignments.
 
 * The **workspace** directory is where we will keep our temporary files. By default, we have around 40 GB available for our output files in the workspace directory. If you run out of space, you may need to delete some files from this directory.
+
+
+### Setting Up Your Own Virtual Machine
+
+* To use AWS at home and launch your own virtual machine, follow the instructions [here](https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/).  
 
 ***
