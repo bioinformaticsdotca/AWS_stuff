@@ -70,27 +70,6 @@ To configure Putty, start Putty and do the following:
 **Now that Putty is configured**, all you have to do is start putty and double-click on "Amazon node" to login.
 
 
-##### Copying files to your computer
-<br>
-To configure WinScp, start WinScp and do the following:
-
-* On the right-hand buttons click "New".
-
-* Fill in the "Host name" field with cbw#.dyndns.info (where ## is your assigned student number. Your student number is the number on your name badge. If your number is less than 10, please add 0 in front of it.)
-
-* Fill in the "User name" field with **ubuntu**
-
-* Leave the password field empty
-
-* In the "private key file" field press the "..." button to browse for the CBWNY.ppk certificate
-
-* Click the "Save..." button and in the "Save session as" field write "Amazon node". 
-
-<img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/WinSCP_Login_Options.png?raw=true" alt="WinSCP_Login_Options" class="center">
-
-**Now that WinScp is configured**, all you have to do is start WinScp and double-click on **Amazon node** to start copying files.
-
-
 #### File System Layout <a id="filesystem"></a>
 <br>
 When you log in, you'll notice that you have two directories: **CourseData** and **workspace**.
