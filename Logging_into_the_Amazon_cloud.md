@@ -28,7 +28,7 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 * To log in to the node, use the -i command line argument to specify your certificate:
 
 ```bash
- ssh -i CBWNY.pem ubuntu@cbw##.dyndns.info
+ ssh -i CBWNY.pem ubuntu@##.oicrcbw.ca
 ```
 
 (where ## is your assigned student number. Your student number is the number on your name badge. If your number is less than 10, please add 0 in front of it.)
@@ -38,13 +38,13 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 * To copy files from an instance, use scp in a similar fashion:
 
 ```bash
- scp -i CBWNY.pem ubuntu@cbw##.dyndns.info:<file name> .
+ scp -i CBWNY.pem ubuntu@##.oicrcbw.ca:<file name> .
 ```
 
 * Everything created in your workspace on the cloud is also available by a web server on your cloud instance.  Simply go to the following in your browser:
 
 ```
- http://cbw##.dyndns.info/
+ http://##.oicrcbw.ca/
 ```
 
 #### Logging in with Putty (Windows) <a id="windows"></a>
@@ -53,7 +53,7 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 </p>
 To configure Putty, start Putty and do the following:
 
-* Fill in the "Host name" field with cbw##.dyndns.info (where ## is your assigned student number. Your student number is the number on your name badge. If your number less is than 10, please add 0 in front of it.)
+* Fill in the "Host name" field with ##.oicrcbw.ca (where ## is your assigned student number. Your student number is the number on your name badge. If your number less is than 10, please add 0 in front of it.)
  
 <img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/Putty_Basic_Options.png?raw=true" alt="Basic Putty Options" class="center">
 
