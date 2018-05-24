@@ -31,7 +31,7 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
  ssh -i CBWNY.pem ubuntu@##.oicrcbw.ca
 ```
 
-(where ## is your assigned student number. Your student number is the number on your name badge. If your number is less than 10, please add 0 in front of it.)
+(where ## is your assigned student number.)
 
 
 ##### Copying files to your computer
@@ -53,7 +53,7 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 </p>
 To configure Putty, start Putty and do the following:
 
-* Fill in the "Host name" field with ##.oicrcbw.ca (where ## is your assigned student number. Your student number is the number on your name badge. If your number less is than 10, please add 0 in front of it.)
+* Fill in the "Host name" field with ##.oicrcbw.ca (where ## is your assigned student number.)
  
 <img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/Putty_Basic_Options.png?raw=true" alt="Basic Putty Options" class="center">
 
