@@ -22,13 +22,13 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 * Make sure the permissions on your certificate are secure. Use chmod on your downloaded certificate:
 
 ```bash
- chmod 600 CBWNY.pem
+ chmod 600 CBWCG.pem
 ```
 
 * To log in to the node, use the -i command line argument to specify your certificate:
 
 ```bash
- ssh -i CBWNY.pem ubuntu@##.oicrcbw.ca
+ ssh -i CBWCG.pem ubuntu@##.oicrcbw.ca
 ```
 
 (where ## is your assigned student number.)
@@ -38,7 +38,7 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 * To copy files from an instance, use scp in a similar fashion:
 
 ```bash
- scp -i CBWNY.pem ubuntu@##.oicrcbw.ca:<file name> .
+ scp -i CBWCG.pem ubuntu@##.oicrcbw.ca:<file name> .
 ```
 
 * Everything created in your workspace on the cloud is also available by a web server on your cloud instance.  Simply go to the following in your browser:
@@ -61,7 +61,7 @@ To configure Putty, start Putty and do the following:
 
 <img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/Putty_Data_Options.png?raw=true" alt="Putty Data Options" class="center"> 
 
-* In the left hand categories, in the Connection category next to SSH click on the **+**. Click on Auth. In the private-key file for authentication field, hit browse and find the CBWNY.ppk certificate that you downloaded above.
+* In the left hand categories, in the Connection category next to SSH click on the **+**. Click on Auth. In the private-key file for authentication field, hit browse and find the CBWCG.ppk certificate that you downloaded above.
 
 <img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/Putty_Auth_Options.png?raw=true" alt="Putty Auth Options" class="center">
 
