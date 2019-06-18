@@ -22,13 +22,13 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 * Make sure the permissions on your certificate are secure. Use chmod on your downloaded certificate:
 
 ```bash
- chmod 600 CBWRNA.pem
+ chmod 600 CBWHT.pem
 ```
 
 * To log in to the node, use the -i command line argument to specify your certificate:
 
 ```bash
- ssh -i CBWRNA.pem ubuntu@##.oicrcbw.ca
+ ssh -i CBWHT.pem ubuntu@##.oicrcbw.ca
 ```
 
 (where ## is your assigned student number.)
@@ -38,7 +38,7 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 * To copy files from an instance, use scp in a similar fashion:
 
 ```bash
- scp -i CBWRNA.pem ubuntu@##.oicrcbw.ca:<file name> .
+ scp -i CBWHT.pem ubuntu@##.oicrcbw.ca:<file name> .
 ```
 
 * Everything created in your workspace on the cloud is also available by a web server on your cloud instance.  Simply go to the following in your browser:
