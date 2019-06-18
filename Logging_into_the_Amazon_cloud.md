@@ -61,7 +61,7 @@ To configure Putty, start Putty and do the following:
 
 <img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/Putty_Data_Options.png?raw=true" alt="Putty Data Options" class="center"> 
 
-* In the left hand categories, in the Connection category next to SSH click on the **+**. Click on Auth. In the private-key file for authentication field, hit browse and find the CBWRNA.ppk certificate that you downloaded above.
+* In the left hand categories, in the Connection category next to SSH click on the **+**. Click on Auth. In the private-key file for authentication field, hit browse and find the CBWHT.ppk certificate that you downloaded above.
 
 <img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/Putty_Auth_Options.png?raw=true" alt="Putty Auth Options" class="center">
 
