@@ -10,77 +10,63 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 
 ### Logging into the Amazon Cloud During the Workshop  
 
+
 * These instructions will **ONLY** be relevant in class, as the Cloud will not be accessible from home in advance of the class.
  
 * On the cloud, we're going to use the default username: **ubuntu**
  
 
-#### Logging in with ssh (Mac/Linux) <a id="maclinux"></a>
-<p>
-<h5> Logging in </h5>
-</p>
-* Make sure the permissions on your certificate are secure. Use chmod on your downloaded certificate:
+### Logging in with ssh (Mac/Linux) <a id="maclinux"></a>
+
+* Make sure the permissions on your private key are secure. Use chmod on your downloaded pem file:
 
 ```bash
- chmod 600 CBWHT.pem
+ chmod 600 CBW.pem
 ```
 
-* To log in to the node, use the -i command line argument to specify your certificate:
+* To log in to the instance, use the -i command line argument to specify your private key:
 
 ```bash
- ssh -i CBWHT.pem ubuntu@##.oicrcbw.ca
+ ssh -i CBW.pem ubuntu@##.uhn-hpc.ca
 ```
 
 (where ## is your assigned student number.)
 
+### Logging in with Putty (Windows) <a id="windows"></a>
 
-##### Copying files to your computer
-* To copy files from an instance, use scp in a similar fashion:
-
-```bash
- scp -i CBWHT.pem ubuntu@##.oicrcbw.ca:<file name> .
-```
-
-* Everything created in your workspace on the cloud is also available by a web server on your cloud instance.  Simply go to the following in your browser:
-
-```
- http://##.oicrcbw.ca/
-```
-
-#### Logging in with Putty (Windows) <a id="windows"></a>
-<p>
-<h5> Logging in </h5>   
-</p>
-To configure Putty, start Putty and do the following:
-
-* Fill in the "Host name" field with ##.oicrcbw.ca (where ## is your assigned student number.)
+* Fill in the "Host name" field with ubuntu@##.uhn-hpc.ca (where ## is your assigned student number.)
  
-<img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/Putty_Basic_Options.png?raw=true" alt="Basic Putty Options" class="center">
+<img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/Putty_Basic_Options.jpg" alt="Basic Putty Options" class="center">
 
-* In the left hand categories,under the Connection category choose Data.  In the auto-login username field write ***ubuntu***.
+* In the left hand categories, in the Connection category next to SSH click on the **+**. Click on **+** next to Auth and then click Credentials. In the private-key file for authentication field, hit browse and find the CBW.ppk file that you downloaded.
 
-<img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/Putty_Data_Options.png?raw=true" alt="Putty Data Options" class="center"> 
-
-* In the left hand categories, in the Connection category next to SSH click on the **+**. Click on Auth. In the private-key file for authentication field, hit browse and find the CBWHT.ppk certificate that you downloaded above.
-
-<img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/Putty_Auth_Options.png?raw=true" alt="Putty Auth Options" class="center">
+<img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/Putty_Auth_Options.jpg" alt="Putty Auth Options" class="center">
 
 * In the left hand categories, click on Session.  In the Saved Sessions field write **Amazon node** and click save.
 
 **Now that Putty is configured**, all you have to do is start putty and double-click on "Amazon node" to login.
 
 
-#### File System Layout <a id="filesystem"></a>
-<br>
+## File System Layout <a id="filesystem"></a>
+
 When you log in, you'll notice that you have two directories: **CourseData** and **workspace**.
 
 * The **CourseData** directory will contain the files that you'll need to complete your lab assignments.
 
-* The **workspace** directory is where we will keep our temporary files. By default, we have around 40 GB available for our output files in the workspace directory. If you run out of space, you may need to delete some files from this directory.
+* The **workspace** directory is where you will work on your labs. Files here will be accessible through your browser.
 
+## workspace
 
-### Setting Up Your Own Virtual Machine
+* Everything created in your workspace on the cloud is also available by a web server on your cloud instance.  Simply go to the following in your browser:
 
-* To use AWS at home and launch your own virtual machine, follow the instructions [here](https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/).  
+```
+ http://##.uhn-hpc.ca/
+```
+(where ## is your assigned student number.)
 
-***
+## RStudio 
+* RStudio server is installed on your instance. It is accessible in your browser
+```
+ http://##.uhn-hpc.ca:8080
+```
+(where ## is your assigned student number.) The username is ***ubuntu***. We will give you the password in class.
