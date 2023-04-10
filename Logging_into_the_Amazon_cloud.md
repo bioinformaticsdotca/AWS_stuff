@@ -5,7 +5,7 @@ title: AWS Setup
 header1: Workshop Pages for Students
 header2: AWS Setup
 image: /site_images/Bioinfo_Logo.jpg
-home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
+home: https://bioinformaticsdotca.github.io/IDE_2023
 ---
 
 ### Logging into the Amazon Cloud During the Workshop  
