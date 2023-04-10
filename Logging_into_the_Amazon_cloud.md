@@ -36,11 +36,11 @@ home: https://bioinformaticsdotca.github.io/IDE_2023
 
 * Fill in the "Host name" field with ubuntu@##.uhn-hpc.ca (where ## is your assigned student number.)
  
-<img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/Putty_Basic_Options.jpg" alt="Basic Putty Options" class="center">
+<img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/Putty_Basic_Options.jpg?raw=true" alt="Basic Putty Options" class="center">
 
 * In the left hand categories, in the Connection category next to SSH click on the **+**. Click on **+** next to Auth and then click Credentials. In the private-key file for authentication field, hit browse and find the CBW.ppk file that you downloaded.
 
-<img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/Putty_Auth_Options.jpg" alt="Putty Auth Options" class="center">
+<img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/Putty_Auth_Options.jpg?raw=true" alt="Putty Auth Options" class="center">
 
 * In the left hand categories, click on Session.  In the Saved Sessions field write **Amazon node** and click save.
 
