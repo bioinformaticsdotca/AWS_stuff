@@ -8,7 +8,7 @@ image: /site_images/CBW_epidemiology_icon.png
 home: https://bioinformaticsdotca.github.io/IDE_2023
 ---
 
-||**Monday, April 17th** |
+||**Monday, April 17th (times in EST)** |
 |:---: |:---: |
 | 10:00 |<font color="purple">Welcome Introduction (Nia)</font>|
 |	10:10	|	<font color="purple">Module 1: Logging into AWS (Zhibin)</font>	|
