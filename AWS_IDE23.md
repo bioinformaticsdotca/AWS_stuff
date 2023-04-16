@@ -67,8 +67,9 @@ This section will show students the basics of the command line, with a focus on 
 2. Type the `pwd` command - what is the output?
 <details>
   <summary>
-Solution (click here)
-  </summary>
+Solution
+  </summary><p>
+
 
 ```bash
 $ ls
@@ -78,14 +79,17 @@ CourseData  R  workspace
 
 The `ls` command lists the contents of a working directory.
 
-</details>
+</p></details>
+
+
 
 3. Type the `ls` command - what is the output?
 
 <details>
   <summary>
-Solution (click here)
+Solution
   </summary>
+
 
 ```bash
 $ pwd
@@ -122,7 +126,7 @@ Using the commands you just learned, explore the file in the ~/CourseData/IDE_da
 
 <details>
   <summary>
-Solution (click here)
+Solution
   </summary>
 
 Yes. You can use `less`, `cat`, `head`, or `tail` and get human-readable info. Note that this doesn't have anything to do with its file extension.
@@ -133,8 +137,9 @@ Yes. You can use `less`, `cat`, `head`, or `tail` and get human-readable info. N
 
 <details>
   <summary>
-Solution (click here)
+Solution
   </summary>
+
 
 ```bash
 $ wc -l GCF_009858895.2_ASM985889v3_genomic.gff 
@@ -145,12 +150,13 @@ There are 67 lines in this file.
 
 </details>
 
+  
 
 3. Can you read the content of the file using less?
 
 <details>
   <summary>
-Solution (click here)
+Solution
   </summary>
 
 ```bash
@@ -172,7 +178,7 @@ Using the commands you just learned, create a file called helloworld.txt and edi
 1. First, use the `nano` command to open a file called `helloworld.txt`
 <details>
   <summary>
-Solution (click here)
+Solution
   </summary>
 
 ```bash
@@ -189,7 +195,7 @@ Inside the nano editor, write "Hello world", then use the `^O` option to write t
 2. Create a subdirectory called “test”; move the helloworld.txt file into test.
 <details>
   <summary>
-Solution (click here)
+Solution
   </summary>
 
 
@@ -208,7 +214,7 @@ $ mv helloworld.txt test/
 
 <details>
   <summary>
-Solution (click here)
+Solution
   </summary>
 
 First, change the working directory using `cd`, then use the `cp` command to create the copy.
