@@ -176,7 +176,7 @@ Explain why `-n` has this effect.
 
 <details>
   <summary>
-    **Solution**
+    Solution
   </summary>
   The -n option specifies a numerical rather than an alphanumerical sort.
 </details>
@@ -329,7 +329,7 @@ $ cat annotation-dates.txt | head -n 5 | tail -n 3 | sort -r > final.txt
 
 <details>
   <summary>
-    **Solution**
+    Solution
   </summary>
 
   <p>
@@ -370,7 +370,7 @@ The `uniq` command filters out adjacent matching lines in a file. How could you 
 
 <details>
     <summary>
-    **Solution**
+    Solution
     </summary>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cut</span> <span class="nt">-d</span> , <span class="nt">-f</span> 2 annotation-dates.txt | <span class="nb">sort</span> | <span class="nb">uniq</span>
@@ -391,7 +391,7 @@ The `uniq` command has a `-c` option which gives a count of the number of times 
 
 <details>
   <summary>
-  **Solution**
+  Solution
   </summary>
   Option 4. is the correct answer. If you have difficulty understanding why, try running the commands, or sub-sections of the pipelines (make sure you are in the `data/collections` directory).
 </details>
@@ -459,7 +459,7 @@ NENE01971Z.txt    NENE02040Z.txt
 ```
 {:.output}
 
-It turns outt hat there’s no depth recorded for either of those samples. Since it’s too late to get the information any other way, we must exclude those two files from our analysis. We could delete them using rm, but there are actually some analyses we might do later where depth doesn’t matter, so instead, we'll have to be careful later on to select files using the wildcard expression *[AB].txt. As always, the * matches any number of characters; the expression [AB] matches either an ‘A’ or a ‘B’, so this matches all the valid data files she has.
+It turns out that there’s no depth recorded for either of those samples. Since it’s too late to get the information any other way, we must exclude those two files from our analysis. We could delete them using rm, but there are actually some analyses we might do later where depth doesn’t matter, so instead, we'll have to be careful later on to select files using the wildcard expression *[AB].txt. As always, the * matches any number of characters; the expression [AB] matches either an ‘A’ or a ‘B’, so this matches all the valid data files she has.
 
 ### Wildcard Expressions
 
@@ -473,7 +473,7 @@ If you used two commands, under what circumstances would your new expression pro
 
 <details>
     <summary>
-    **Solution**
+    Solution
     </summary>
 
 1:
