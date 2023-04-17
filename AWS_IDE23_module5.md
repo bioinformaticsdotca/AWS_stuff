@@ -19,21 +19,21 @@ We are finally ready to see what makes the shell such a powerful programming env
 
 Not only will writing shell scripts make your work faster– you won’t have to retype the same commands over and over again– it will also make it more accurate (fewer chances for typos) and more reproducible. If you come back to your work later (or if someone else finds your work and wants to build on it) you will be able to reproduce the same results simply by running your script, rather than having to remember or retype a long list of commands.
 
-Let’s start by going back to `data/genomes` and creating a new file, `get_tags.sh` which will become our shell script:
+Let’s start by going back to `data/genomes` and creating a new file, `count_tags.sh` which will become our shell script:
 
 ```bash
 $ cd data/genomes
 $ nano count_tags.sh
 ```
 
-The command nano `get_tags.sh` opens the file `get_tags.sh` within the text editor ‘nano’ (which runs within the shell). If the file does not exist, it will be created. We can use the text editor to directly edit the file – we’ll simply insert the following line:
+The command nano `count_tags.sh` opens the file `count_tags.sh` within the text editor ‘nano’ (which runs within the shell). If the file does not exist, it will be created. We can use the text editor to directly edit the file – we’ll simply insert the following line:
 
 ```bash
 echo -n "atlanta.gbff: "
 grep "/locus_tag=" atlanta.gbff | wc -l
 ```
 
-Then we save the file (Ctrl-O in nano), and exit the text editor (Ctrl-X in nano). Check that the directory molecules now contains a file called `get_tags.sh`.
+Then we save the file (Ctrl-O in nano), and exit the text editor (Ctrl-X in nano). Check that the directory molecules now contains a file called `count_tags.sh`.
 
 Once we have saved the file, we can ask the shell to execute the commands it contains. Our shell is called bash, so we run the following command:
 
@@ -92,7 +92,7 @@ The loop executes all of the commands between `do` and `done` for each time the 
 What if we wanted to count the number of tags in other gbff file. At the moment, the filenames are hard-coded into our script. It only counts tags in atlanta.gbff and london.gbff. We can make the script a little bit more flexible by using the variable nams "$1" and "$2"
 
 ```bash
-$ nano get_tags.sh
+$ nano count_tags.sh
 ```
 
 Now, within “nano”, replace the text "atlanta.gbff" with the special variable called $1:
@@ -139,7 +139,7 @@ There is a special variable "$@" which holds all of the arguments passed to the 
 
 
 ```bash
-$ nano get_tags.sh
+$ nano count_tags.sh
 ```
 
 ```bash

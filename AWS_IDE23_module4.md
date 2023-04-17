@@ -27,10 +27,9 @@ cd data
 
 ## Data Exploration
 
-We'll begin by looking at Genbank gbff files. This is a text file that describes the nucleotide sequence and annotation features on those nucleotide sequences. First of all, we run the `ls` command to view the names of the files in the `ecoli_genomes` directory:
+We'll begin by looking at files are in Genbank gbff. This is a text file that describes the nucleotide sequence and annotation features on those nucleotide sequences. First of all, we run the `ls` command to view the names of the files in the `ecoli_genomes` directory:
 
 ```bash
-$ cd data
 $ ls genomes
 ```
 
@@ -125,7 +124,7 @@ $ cat lengths.txt
 
 ## Sorting
 
-The `sort` command rearranges the lines in a file in order. There are different methods of sorting - lexigraphically (a-z1-9) or numerically. The default sort type is lexigraphically, where numbers are treated one character at a time. Given a hypothetical file "numbers.txt" that looks like:
+The `sort` command rearranges the lines in a file in order. There are different methods of sorting - lexigraphically (a-z1-9) or numerically. The default sort type is lexigraphically, where numbers are treated one character at a time. Given a the file "numbers.txt" that looks like:
 
 ```bash
 cd ../sorting
@@ -176,7 +175,7 @@ Explain why `-n` has this effect.
 
 <details>
   <summary>
-    Solution
+    **Solution** (click here)
   </summary>
   The -n option specifies a numerical rather than an alphanumerical sort.
 </details>
@@ -323,13 +322,13 @@ A file called `annotation-dates.txt` (in the `data/collection` folder) contains 
 What text passes through each of the pipes and the final redirect in the pipeline below?
 
 ```bash
-$ cd data/collection
+$ cd ../collection
 $ cat annotation-dates.txt | head -n 5 | tail -n 3 | sort -r > final.txt
 ```
 
 <details>
   <summary>
-    Solution
+    **Solution** (click here)
   </summary>
 
   <p>
@@ -370,7 +369,7 @@ The `uniq` command filters out adjacent matching lines in a file. How could you 
 
 <details>
     <summary>
-    Solution
+    **Solution** (click here)
     </summary>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cut</span> <span class="nt">-d</span> , <span class="nt">-f</span> 2 annotation-dates.txt | <span class="nb">sort</span> | <span class="nb">uniq</span>
@@ -391,7 +390,7 @@ The `uniq` command has a `-c` option which gives a count of the number of times 
 
 <details>
   <summary>
-  Solution
+  **Solution** (click here)
   </summary>
   Option 4. is the correct answer. If you have difficulty understanding why, try running the commands, or sub-sections of the pipelines (make sure you are in the `data/collections` directory).
 </details>
@@ -459,7 +458,7 @@ NENE01971Z.txt    NENE02040Z.txt
 ```
 {:.output}
 
-It turns out that there’s no depth recorded for either of those samples. Since it’s too late to get the information any other way, we must exclude those two files from our analysis. We could delete them using rm, but there are actually some analyses we might do later where depth doesn’t matter, so instead, we'll have to be careful later on to select files using the wildcard expression *[AB].txt. As always, the * matches any number of characters; the expression [AB] matches either an ‘A’ or a ‘B’, so this matches all the valid data files she has.
+It turns outt hat there’s no depth recorded for either of those samples. Since it’s too late to get the information any other way, we must exclude those two files from our analysis. We could delete them using rm, but there are actually some analyses we might do later where depth doesn’t matter, so instead, we'll have to be careful later on to select files using the wildcard expression *[AB].txt. As always, the * matches any number of characters; the expression [AB] matches either an ‘A’ or a ‘B’, so this matches all the valid data files she has.
 
 ### Wildcard Expressions
 
@@ -473,7 +472,7 @@ If you used two commands, under what circumstances would your new expression pro
 
 <details>
     <summary>
-    Solution
+    **Solution** (click here)
     </summary>
 
 1:
@@ -502,12 +501,3 @@ A solution using one command but with two arguments:
 - `command >> [file]` appends a command’s output to a file.
 - `[first] | [second]` is a pipeline: the output of the first command is used as the input to the second.
 - The best way to use the shell is to use pipes to combine simple single-purpose programs (filters).
-
-
-
-
-
-
-
-
-
