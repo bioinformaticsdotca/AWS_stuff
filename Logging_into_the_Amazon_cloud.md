@@ -44,6 +44,8 @@ home: https://bioinformaticsdotca.github.io/IDE_2023
 
 * In the left hand categories, click on Session.  In the Saved Sessions field write **Amazon node** and click save.
 
+<img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/Putty_Save_Options.jpg?raw=true" alt="Putty Save Options" class="center">
+
 **Now that Putty is configured**, all you have to do is start putty and double-click on "Amazon node" to login.
 
 
