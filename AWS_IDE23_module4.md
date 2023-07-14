@@ -16,7 +16,13 @@ The exercies here are modified versions of the [Software Carpentry Unix shell le
 
 ## Setup
 
-The first step will be to download some example data. First move into your home directory, download the example data as a zip file and then unzip the file:
+The first step will be to install the unzip program on our AWS instance. You only need to do this once. Hit the Return key to indicate OK when it prompts you.
+
+```bash
+sudo apt install unzip
+```
+
+Now you can download some example data. First move into your home directory, download the example data as a zip file and then unzip the file:
 
 ```bash
 cd ~
