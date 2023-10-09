@@ -46,7 +46,7 @@ Today's schedule can be found [here](https://bioinformaticsdotca.github.io/AWS_E
 #### Description of the lab:
 This section will show students how to login to AWS.
 
-[Slides (pdf)](https://drive.google.com/file/d/1lSQUpuk9PcDo-XxVIf-dohBy_FfjsBUJ/view?usp=drive_link)
+[Slides (pdf)](https://drive.google.com/file/d/1nAPKZyG--bpkI_BgSfrxJmNHlUWbuGV7/view?usp=drive_link)
 
 You can find the instructions [here](https://bioinformaticsdotca.github.io/AWS_setup).
 
@@ -57,7 +57,7 @@ You can find the instructions [here](https://bioinformaticsdotca.github.io/AWS_s
 ### Description of the lab:
 This section will show students the basics of the command line, with a focus on navigation.
 
-- [Slides (pdf)](https://drive.google.com/file/d/1IQmk4GQSJeZ4Uo5T8pAIVWNmFtKZEd5G/view?usp=drive_link)
+- [Slides (pdf)](https://drive.google.com/file/d/1ZxmXO8dUlwlzeQzdnHiEZsGhndSx-INr/view?usp=drive_link)
 
 <a name="filesystem_exploration"></a>
 ### Exercise: Exploring the filesystem
@@ -108,7 +108,7 @@ The `pwd` command shows the absolute *path to the working directorpwy*.
 ### Description of the lab:
 This section will show students how to manipulate files, including reading, editing, and renaming text files.
 
-- [Slides (pdf)](https://drive.google.com/file/d/1QXvU_bzAzH4FnpcBxWkxRlH3b90t6Jp1/view?usp=drive_link)
+- [Slides (pdf)](https://drive.google.com/file/d/1e-zq1-7zejQ3wkqS0Hl69JV02vIWSiLL/view?usp=drive_link)
 
 
 ### Additional material:
