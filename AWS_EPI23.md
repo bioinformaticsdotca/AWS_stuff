@@ -46,7 +46,7 @@ Today's schedule can be found [here](https://bioinformaticsdotca.github.io/AWS_E
 #### Description of the lab:
 This section will show students how to login to AWS.
 
-[Slides (pdf)](https://drive.google.com/file/d/1nAPKZyG--bpkI_BgSfrxJmNHlUWbuGV7/view?usp=drive_link)
+[Slides (pdf)](https://drive.google.com/file/d/1CZRVvYMrLtVJIsXDGVAnG-bG1GDuYMCQ/view?usp=drive_link)
 
 You can find the instructions [here](https://bioinformaticsdotca.github.io/AWS_setup).
 
