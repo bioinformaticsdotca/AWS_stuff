@@ -21,13 +21,13 @@ home: https://bioinformaticsdotca.github.io/IDE_2023
 * Make sure the permissions on your private key are secure. Use chmod on your downloaded pem file:
 
 ```bash
- chmod 600 CBW.pem
+ chmod 600 BMB.pem
 ```
 
 * To log in to the instance, use the -i command line argument to specify your private key:
 
 ```bash
- ssh -i CBW.pem ubuntu@##.uhn-hpc.ca
+ ssh -i BMB.pem ubuntu@##.uhn-hpc.ca
 ```
 
 (where ## is your assigned student number.)
