@@ -21,13 +21,13 @@ home: https://bioinformaticsdotca.github.io/IDE_2023
 * Make sure the permissions on your private key are secure. Use chmod on your downloaded pem file:
 
 ```bash
- chmod 600 BMB.pem
+ chmod 600 CBW.pem
 ```
 
 * To log in to the instance, use the -i command line argument to specify your private key:
 
 ```bash
- ssh -i BMB.pem ubuntu@##.uhn-hpc.ca
+ ssh -i CBW.pem ubuntu@##.uhn-hpc.ca
 ```
 
 (where ## is your assigned student number.)
@@ -38,7 +38,7 @@ home: https://bioinformaticsdotca.github.io/IDE_2023
  
 <img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/Putty_Basic_Options.jpg?raw=true" alt="Basic Putty Options" class="center">
 
-* In the left hand categories, in the Connection category next to SSH click on the **+**. Click on **+** next to Auth and then click Credentials. In the private-key file for authentication field, hit browse and find the BMB.ppk file that you downloaded.
+* In the left hand categories, in the Connection category next to SSH click on the **+**. Click on **+** next to Auth and then click Credentials. In the private-key file for authentication field, hit browse and find the CBW.ppk file that you downloaded.
 
 <img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/Putty_Auth_Options.jpg?raw=true" alt="Putty Auth Options" class="center">
 
