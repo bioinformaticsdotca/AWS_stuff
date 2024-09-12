@@ -45,3 +45,18 @@ home: https://bioinformaticsdotca.github.io/
   <img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/mac_MRD_user.jpg?raw=true" alt="mac_remote_desktop_user" width="50%">
 * Click "Continue" when you see the warning.</br>
   <img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/mac_MRD_warn.jpg?raw=true" alt="mac_remote_desktop_warn" width="50%">
+
+### Linux Log in (Remmina) <a id="mac"></a> 
+* Follow the instructions at [Remmina web site](https://remmina.org/how-to-install-remmina/) to install Remmina and remmina-plugin-rdp.
+* Launch remmina and click "+" to add a profile.</br>
+  <img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/linux_remmina.jpg?raw=true" alt="linux_remmina" width="50%">
+* Fill in the following information:
+  ** Name: Profile name like CBW.
+  ** Protocol: Choose "RDP - Remote Desktop Protocol".
+  ** Server: your hostname ("xx.uhn-hpc.ca" where xx is your student number).
+  ** Username: <b>cbw</b>
+  ** Share folder: your local directory you want to share with your AWS instance. You will be able to transfer files between your local directory and your AWS instance.<br/>
+  <img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/linux_remmina_add.jpg?raw=true" alt="linux_remmina_add" width="50%">
+* Click "Yes" when you see the warning.</br>
+  <img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/linux_remmina_warn.jpg?raw=true" alt="linux_remmina_warn" width="50%">
+
