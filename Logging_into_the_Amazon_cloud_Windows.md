@@ -56,7 +56,7 @@ home: https://bioinformaticsdotca.github.io/
   ** Server: your hostname ("xx.uhn-hpc.ca" where xx is your student number).
   ** Username: <b>cbw</b>
   ** Share folder: your local directory you want to share with your AWS instance. You will be able to transfer files between your local directory and your AWS instance.<br/>
-  <img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/linux_remmina_add.jpg?raw=true" alt="linux_remmina_add" width="50%">
+  <img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/83c76154c57faec518a230b618bb86a6f4219fd4/linux_remmina_add.jpg" alt="linux_remmina_add" width="50%">
 * Click "Yes" when you see the warning.</br>
   <img src="https://github.com/bioinformaticsdotca/AWS_stuff/blob/master/linux_remmina_warn.jpg?raw=true" alt="linux_remmina_warn" width="50%">
 
